@@ -1,0 +1,5 @@
+```{r}
+library(tidyverse)
+d <- read_csv('17b.csv')
+```
+

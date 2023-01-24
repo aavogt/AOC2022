@@ -1,0 +1,46 @@
+name: AOC2022
+
+dependencies:
+        - base
+        - Glob
+        - template-haskell
+        - sbv
+        - split
+        - lens
+        - vector
+        - transformers
+        - containers
+        - bytestring
+        - rosezipper # maybe try pez modified to use lens?
+        - linear
+        - unordered-containers
+        - astar
+        - uu-parsinglib
+        - logict
+        - pretty-show
+        - regex-applicative
+        - boundingboxes
+        - data-clist
+
+default-extensions:
+  BlockArguments
+  DeriveFoldable
+  DeriveFunctor
+  DeriveTraversable
+  FlexibleContexts
+  FlexibleInstances
+  ImplicitParams
+  LambdaCase
+  MultiWayIf
+  MultiParamTypeClasses
+  OverloadedStrings
+  RecordWildCards
+  TemplateHaskell
+  TupleSections
+  TypeFamilies
+  ViewPatterns
+
+
+executable:
+        main: main.hs
+        source-dirs: .

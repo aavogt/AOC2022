@@ -1,0 +1,66 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.35.1.
+--
+-- see: https://github.com/sol/hpack
+
+name:           AOC2022
+version:        0.0.0
+build-type:     Simple
+
+executable AOC2022
+  main-is: main.hs
+  other-modules:
+      Day01
+      Day02
+      Day03
+      Day04
+      Day05
+      Day06
+      Day07
+      Day08
+      Day09b
+      Day10
+      Day11
+      Day11b
+      Day12
+      Day13
+      Day14
+      Day15
+      Day15b
+      Day16
+      Day17
+      Day17b
+      Day18
+      Day19
+      Day20
+      Day21
+      Day22
+      Day23
+      Paths_AOC2022
+  hs-source-dirs:
+      ./
+  default-extensions:
+      BlockArguments DeriveFoldable DeriveFunctor DeriveTraversable FlexibleContexts FlexibleInstances ImplicitParams LambdaCase MultiWayIf MultiParamTypeClasses OverloadedStrings RecordWildCards TemplateHaskell TupleSections TypeFamilies ViewPatterns
+  build-depends:
+      Glob
+    , astar
+    , base
+    , boundingboxes
+    , bytestring
+    , containers
+    , data-clist
+    , lens
+    , linear
+    , logict
+    , pretty-show
+    , regex-applicative
+    , rosezipper
+    , sbv
+    , split
+    , template-haskell
+    , transformers
+    , unordered-containers
+    , uu-parsinglib
+    , vector
+  default-language: Haskell2010
